@@ -6,9 +6,18 @@
 
 #### 安装教程
 
-1. 下载图床软件
+1. 安装
+   1. 手动安装
+   
+      [下载地址](https://github.com/ns-cn/up2ee/releases),可选win、linux、mac操作系统
+   2. 通过homebrew安装
 
-   [下载地址](https://gitee.com/ns-cn/up2ee/releases/),可选[win](https://gitee.com/ns-cn/up2ee/attach_files/869531/download/up2ee.exe)、[linux](https://gitee.com/ns-cn/up2ee/attach_files/869532/download/up2ee.linux)、[mac](https://gitee.com/ns-cn/up2ee/attach_files/869530/download/up2ee.darwin)操作系统
+      ```shell
+         brew tap ns-cn/ttools
+         brew install up2ee
+      ```
+
+
 
 2. gitee后台配置
 
@@ -27,6 +36,8 @@
    ```shell
    【命令全路径】 -c 【ClientId】 -s 【ClientSecret】 -u 【gitee用户名】 -p 【gitee密码】 
    ```
+
+   > 如果通过homebrew或配置环境变量，可使用`up2ee`代替命令全路径
 
    例如
 
